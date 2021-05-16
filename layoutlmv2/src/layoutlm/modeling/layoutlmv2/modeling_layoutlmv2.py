@@ -5,7 +5,7 @@ import torch
 import torch.nn.functional as F
 import torch.utils.checkpoint
 from torch import nn
-from torch.nn import CrossEntropyLoss
+from torch.nn import CrossEntropyLoss,MSELoss
 
 import detectron2
 from detectron2.modeling import META_ARCH_REGISTRY

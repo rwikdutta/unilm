@@ -19,7 +19,7 @@ MODEL_FOR_TOKEN_CLASSIFICATION_MAPPING.update([(LayoutLMv2Config, LayoutLMv2ForT
 AutoModelForTokenClassification = auto_class_factory(
     "AutoModelForTokenClassification", MODEL_FOR_TOKEN_CLASSIFICATION_MAPPING, head_doc="token classification"
 )
-MODEL_FOR_SEQUENCE_CLASSIFICATION_MAPPING.update([LayoutLMv2Config,LayoutLMv2ForSequenceClassification])
+MODEL_FOR_SEQUENCE_CLASSIFICATION_MAPPING.update([(LayoutLMv2Config,LayoutLMv2ForSequenceClassification)])
 AutoModelForSequenceClassification = auto_class_factory(
   "AutoModelForSequenceClassification",MODEL_FOR_SEQUENCE_CLASSIFICATION_MAPPING,head_doc="sequence classification"
 )
